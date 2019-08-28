@@ -1,0 +1,13 @@
+1. git init: inicia el repositorio en la carpeta donde esta el proyecto.
+2. git config --local user.email “example@uca” / git config --local user.name “example”: determina el usuario que está realizando los cambios.
+3. git config --local --list / git config --global --list: se utiliza para desplegar la lista de valores asignados con los comandos anteriores. El segundo se debe usar en la computadora personal para corroborar que el nombre y el email haya sido ingresado correctamente.
+4. git config --global color.ui true: se usa para el marco de colores de los comandos.
+5. git add . : agrega todos los archivos al repositorio.
+6. git commit –m “Un commit”: sirve para comentar los cambios que hemos hecho. 
+7. git clone:  se usa para copiar un repositorio y trabajar con él en nuestra máquina.
+8. git push -u origin master: se usa para guardar nuestros cambios en la nube y los agregamos a la rama principal. 
+9. git pull:  sirve para actualizar nuestro repositorio con los últimos de la nube.  
+10. git remote add origin “url del repositorio”: se usa para añadir el lugar en la nube donde subiremos el repositorio.  
+11. git revert <commit>: se utiliza para revertir un commit usando su ID. Una vez hecho esto hay que hacer “push” para guardar los cambios.
+12. git push -f origin IdUltimoCommitBueno:Master : se usa para borrar el último commit que acabamos de subir.
+ 
